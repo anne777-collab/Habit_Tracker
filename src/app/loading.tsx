@@ -1,0 +1,1 @@
+export default function Loading(){return <main className="terminal-grid grid min-h-screen place-items-center"><p className="terminal-title text-sm text-[#58ffbd]">LOADING SYSTEM STATE<span className="cursor"/></p></main>}

@@ -1,0 +1,2 @@
+import { AppShell } from "@/components/app-shell"; import { DangerZone } from "@/components/danger-zone";
+export default function Settings(){return <AppShell><p className="terminal-label text-[#4eeaff]">/ system / preferences</p><h1 className="terminal-title mt-2 text-3xl"><span className="type-line">Settings</span><span className="cursor"/></h1><p className="mt-3 text-sm text-[#7d9690]">Configure sensitive account operations.</p><DangerZone/></AppShell>}
